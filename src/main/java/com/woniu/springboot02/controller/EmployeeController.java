@@ -21,6 +21,7 @@ public class EmployeeController {
 
         Collection<Employee> all = employeeDao.getAll();
         model.addAttribute("emps",all);
+        System.out.println("udhosihgosid");
         return "emp/list";
     }
 
